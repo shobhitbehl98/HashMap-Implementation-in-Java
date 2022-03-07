@@ -60,7 +60,6 @@ public class HashMap_implementation {
         }
 
         public void put(K key, V value) throws Exception {
-            // write your code here
             int bi = getBucketindex(key);
             int di = getDataIndex(bi, key);
 
@@ -79,7 +78,6 @@ public class HashMap_implementation {
         }
 
         public V get(K key) throws Exception {
-            // write your code here
             int bi = getBucketindex(key);
             int di = getDataIndex(bi, key);
 
